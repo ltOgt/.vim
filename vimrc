@@ -6,6 +6,7 @@
 
 
 " PLUGINS =================================================================
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 	nnoremap nerd :NERDTreeToggle<Enter>
 	let g:ycm_global_ycm_extra_conf = "~/.vim/custom/plugins/.ycm_extra_conf.py"
