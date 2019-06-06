@@ -6,33 +6,27 @@
 [refby]
 [refto]
 [litbib]
-	\lit{
-		authors={%
-		},
-		year          =,
-		title         ={},
-		edition       =,
-		volume        =,
-		issue         =,
-		isbn          =,
-		doi           =,
-		%[<IN>.]
-		inEditors     ={},
-		inYear        =,
-		inTitle       ={},
-		inEdition     =,
-		inPages       =,
-		inVolume      =,
-		inIssue       =,
-		inIsbn        =,
-		inDoi         =,
-		%<PUBLISHER>
-		pubLocation   ={},
-		pubPublisher  ={},
-		%[<ADDITIONS>.]
-		addInetSrc    ={\protect\url{}},
-		addInetDate   =,
-		addNote       =,
-		label         =ERR-NO-LABEL-SET
-	}%
-	{}% cite
+	authors
+	year
+	title
+	edition
+	volume
+	issue
+	isbn
+	doi
+	inEditors
+	inYear
+	inTitle
+	inEdition
+	inPages
+	inVolume
+	inIssue
+	inIsbn
+	inDoi
+	pubLocation
+	pubPublisher
+	addInetSrc
+	addInetDate
+	addNote
+	label
+	CITE

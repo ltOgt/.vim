@@ -4,6 +4,3 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
-[submodule "bundle/vim-markdown-preview"]
-	path = bundle/vim-markdown-preview
-	url = git@github.com:JamshedVesuna/vim-markdown-preview.git
