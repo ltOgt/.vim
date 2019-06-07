@@ -227,6 +227,9 @@ execute pathogen#infect()
 		au Bufread,BufNewFile *.cls set filetype=cls
 		au Bufread,BufNewFile *.bib setfiletype bib
 
+	" Markdown
+		au Bufread,BufNewFile *.md set filetype=markdown
+
 
 	" TEMPLATES ===============================================================
 	autocmd BufNewFile *.tex 0r ~/.vim/templates/skeleton.tex
@@ -251,6 +254,9 @@ execute pathogen#infect()
 	source ~/.vim/custom/binds/latex.vim
 	source ~/.vim/custom/binds/bib.vim
 	source ~/.vim/custom/binds/cls.vim
+
+	" LOAD Markdown ==============================================================
+	source ~/.vim/custom/binds/md.vim
 
 	" LOAD .lg ================================================================
 	source ~/.vim/custom/binds/lg.vim
