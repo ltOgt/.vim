@@ -38,9 +38,9 @@ execute pathogen#infect()
 		syntax on
 
 	" Define TAB
-		set tabstop=4					" width of tab as it appears in vim (measured in spaces)
+		set tabstop=2					" width of tab as it appears in vim (measured in spaces)
 		set softtabstop=0 noexpandtab	" non-zero -> inserts actual spaces + tabs | all spaces
-		set shiftwidth=4
+		set shiftwidth=2
 
 	" Visual Folding
 		set foldmethod=indent			" define scope_of_fold=same indent
