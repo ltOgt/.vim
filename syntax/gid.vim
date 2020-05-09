@@ -242,7 +242,7 @@ hi def gidAbrev		ctermfg=red cterm=bold
 
 
 "Style
-hi def gid_s_UL		ctermfg=70 cterm=underline
+"hi def gid_s_UL		ctermfg=70 cterm=underline
 hi def gid_s_IT		ctermfg=255 cterm=italic
 hi def gid_s_MulIT	ctermfg=255 cterm=italic
 hi def gid_s_BOLD	ctermfg=122 cterm=bold
