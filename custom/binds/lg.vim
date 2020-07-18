@@ -3,6 +3,7 @@ autocmd FileType lg,gid inoremap ,, [ ]<Tab>
 autocmd FileType lg,gid inoremap ,p <Esc>:s/\[\s\]/\[p\]/<Enter>a
 autocmd FileType lg,gid inoremap ,x <Esc>:s/\[\s\]/\[x\]/<Enter>a
 autocmd FileType lg,gid inoremap ,+ <Esc>:s/\[\s\]/\[*\]/<Enter>a
+autocmd FileType lg,gid inoremap ,? <Esc>:s/\[\s\]/\[?\]/<Enter>a
 autocmd FileType lg vnoremap ,, c{::}<Esc>2hp2la
 autocmd FileType lg vnoremap ,. c{::::}<Esc>3hp3la
 
