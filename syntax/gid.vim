@@ -59,6 +59,7 @@ endif
 "		#  Innerff-Document Reference
 "			{TAG}
 "		¬ not
+"		d Date
 "
 "		_underline_
 "		italic´
@@ -147,6 +148,7 @@ syn match gidIdea	"^\t*°\s"
 syn match gidDir	"^\t*|-\s"
 syn match gidRes	"^\t*<-\s"
 syn match gidNot	"^\t*¬\s"
+syn match gidDate	"^\t*d\s"
 
 syn match gidAbrev	"\[[^\[\]\n\t ]\+\]\~"
 
@@ -237,6 +239,7 @@ hi def gidIdea		ctermfg=70
 hi def gidDir		ctermfg=70
 hi def gidRes		ctermfg=70
 hi def gidNot		ctermfg=70
+hi def gidDate		ctermfg=70
 
 hi def gidAbrev		ctermfg=red cterm=bold
 
