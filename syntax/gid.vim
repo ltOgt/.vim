@@ -58,8 +58,10 @@ endif
 "		<- Reason
 "		#  Innerff-Document Reference
 "			{TAG}
-"		¬ not
+"		¬ not  (AltGr+6)
+"		!= not
 "		d Date
+"		v Location
 "
 "		_underline_
 "		italic´
@@ -148,7 +150,9 @@ syn match gidIdea	"^\t*°\s"
 syn match gidDir	"^\t*|-\s"
 syn match gidRes	"^\t*<-\s"
 syn match gidNot	"^\t*¬\s"
+syn match gidNot2	"^\t*!=\s"
 syn match gidDate	"^\t*d\s"
+syn match gidLocation	"^\t*v\s"
 
 syn match gidAbrev	"\[[^\[\]\n\t ]\+\]\~"
 
@@ -239,7 +243,9 @@ hi def gidIdea		ctermfg=70
 hi def gidDir		ctermfg=70
 hi def gidRes		ctermfg=70
 hi def gidNot		ctermfg=70
+hi def gidNot2		ctermfg=70
 hi def gidDate		ctermfg=70
+hi def gidLocation		ctermfg=70
 
 hi def gidAbrev		ctermfg=red cterm=bold
 
@@ -249,8 +255,10 @@ hi def gidAbrev		ctermfg=red cterm=bold
 hi def gid_s_IT		ctermfg=255 cterm=italic
 hi def gid_s_MulIT	ctermfg=255 cterm=italic
 hi def gid_s_BOLD	ctermfg=122 cterm=bold
-hi def gid_s_IMP	ctermfg=70 cterm=bold
-hi def gid_s_IMPl	ctermfg=70 cterm=bold
+"hi def gid_s_IMP	ctermfg=70 cterm=bold
+hi def gid_s_IMP	cterm=underline
+"hi def gid_s_IMPl	ctermfg=70 cterm=bold
+hi def gid_s_IMP1	cterm=underline
 hi def gid_s_REF	ctermfg=70 cterm=italic
 " below does not work yet (only italic)
 hi def gid_s_Q		cterm=underline cterm=bold
@@ -260,7 +268,8 @@ hi def gid_s_Q_inline	ctermfg=15 ctermbg=131 cterm=bold
 
 "Meta
 hi def gid_m_PAGE		ctermfg=70
-hi def gid_m_TUDU		ctermfg=15 ctermbg=131 cterm=bold
+"hi def gid_m_TUDU		ctermfg=15 ctermbg=131 cterm=bold
+hi def gid_m_TUDU       cterm=underline
 hi def gid_m_CMNT		ctermfg=103
 hi def gid_m_CMNT_ml	ctermfg=103
 hi def gid_m_NOTE		ctermfg=15 ctermbg=131 cterm=bold
@@ -274,9 +283,12 @@ hi def nmlPointTD       ctermfg=70
 hi def nmlPointTQ       ctermfg=190
 hi def nmlPointTP       ctermfg=70
 hi def nmlPointTM       ctermfg=70
-hi def nmlPointTI       ctermfg=15 ctermbg=131 cterm=bold
-hi def nmlPointTN       ctermfg=red
-hi def nmlPointTA       ctermfg=red
+"hi def nmlPointTI       ctermfg=15 ctermbg=131 cterm=bold
+hi def nmlPointTI       cterm=underline
+"hi def nmlPointTN       ctermfg=red
+hi def nmlPointTN       cterm=underline
+"hi def nmlPointTA       ctermfg=red
+hi def nmlPointTN       cterm=underline
 
 "COLOR-PROFILES
 "BELLO:
