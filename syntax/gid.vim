@@ -62,6 +62,9 @@ endif
 "		!= not
 "		d Date
 "		v Location
+"		{ inline p.s. }
+"		~[inline concept definition]
+"		*[inline concept reference]
 "
 "		_underline_
 "		italic´
@@ -177,6 +180,9 @@ syn match gid_m_CMNT_ml	"^\*\*<\([^\(\*\*>\)]\|[\n]\)*\(\*\*>\)\{0,1}"
 syn match gid_m_NOTE	"^ii[ \t].*$"
 syn match gid_m_TODO	"TODO"
 syn match gid_m_TAG		"{[^\[\]\n\t ,.;:]\+}"
+syn match gid_m_ADD		"{ [^\[\]\n\t,.;:{}]\+ }"
+syn match gid_m_CDEF  "\*\[[^\[\]\n\t,.;:{}]\+\]"
+syn match gid_m_CREF  "\~\[[^\[\]\n\t,.;:{}]\+\]"
 
 
 "OUTSOURCE
@@ -275,6 +281,9 @@ hi def gid_m_CMNT_ml	ctermfg=103
 hi def gid_m_NOTE		ctermfg=15 ctermbg=131 cterm=bold
 hi def gid_m_TODO		ctermfg=15 ctermbg=131 cterm=bold
 hi def gid_m_TAG		ctermfg=103
+hi def gid_m_ADD		ctermfg=103
+hi def gid_m_CDEF		ctermfg=103
+hi def gid_m_CREF		ctermfg=103
 
 
 "OUTSOURCE
