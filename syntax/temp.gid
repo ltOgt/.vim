@@ -1,0 +1,63 @@
+" Vim syntax file
+" Language: 		GID notetaking structuring for ascii-files
+" Maintainer: 		Gian-Luca Fuhrmann
+" Init:			2017-11-21
+
+Main
+""""
+	Sub
+	'''
+		Sub2
+		°°°°
+
+		>  Point
+		:= Definition
+		^=  Equal Meaning
+		-> Follow
+		=> Conclusion
+		-- Option / Type
+		+  Pro
+		-  Contra
+		:  Explenation
+		i  Info / Note
+		.  Side-Note
+		!  Important
+		(  Relativation  )
+		n) Enumeration
+		§  Example
+		$  Command-example
+		>> Code-example
+		:: Code-output
+		// (internet) source
+		?  Question
+		⚡  Error / Problem
+			= Solution
+		<  Counter-Point, Alternative
+		x  Condition
+		/  oposite, difference
+		00 overview
+		e  is element of parent
+		E  parent of previous points
+		~  Maybe / Approximation / Like
+		0  Goal/Aim/Focus
+		^  claim
+		*  reference
+		°  Idea
+		|- (Sub-)Directory
+		<- Reason
+		#  Innerff-Document Reference
+			{TAG}
+		¬ not  (AltGr+6)
+		d Date
+		v Location
+		** Comment
+		[ABREV]~
+
+		[ ]	open
+		[x]	done
+		[?]	unsure
+		[p]	postponed
+		[*]	marked
+		[!]	important
+		[N]	declined
+		[A]	aborted
